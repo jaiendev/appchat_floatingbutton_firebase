@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "913148008660",
+    "firebase_url": "https://appchat-d8e22-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "appchat-d8e22",
+    "storage_bucket": "appchat-d8e22.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:913148008660:android:b8cafb0099782836108341",
+        "android_client_info": {
+          "package_name": "com.trungdang.appchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "913148008660-203ub2eiomuhd3885stl2s4vvds04067.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBL22eZ4YKk8UBeEEtcK1mzFTNf5V1gao0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "913148008660-203ub2eiomuhd3885stl2s4vvds04067.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

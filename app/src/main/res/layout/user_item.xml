@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_margin="10dp"
+        android:layout_width="60dp"
+        android:src="@mipmap/ic_launcher"
+        android:id="@+id/imgusers"
+        android:layout_height="60dp"/>
+    <TextView
+        android:layout_marginLeft="25sp"
+        android:gravity="center"
+        android:id="@+id/username_user"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="Trung đẹp trai"
+        android:layout_toRightOf="@id/imgusers"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_on"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_below="@id/username_user"
+        android:visibility="gone"
+        android:layout_marginStart="-21dp"
+        android:layout_marginLeft="-25dp"
+        android:layout_marginTop="-26dp"
+        android:layout_toEndOf="@id/imgusers"
+        android:layout_toRightOf="@id/imgusers"
+        android:src="@mipmap/ic_launcher"
+        app:civ_border_color="#21B300"
+        app:civ_border_width="10dp" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_off"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_below="@id/username_user"
+        android:visibility="gone"
+        android:layout_marginStart="-21dp"
+        android:layout_marginLeft="-25dp"
+        android:layout_marginTop="-26dp"
+        android:layout_toEndOf="@id/imgusers"
+        android:layout_toRightOf="@id/imgusers"
+        android:src="@mipmap/ic_launcher"
+        app:civ_border_color="#757575"
+        app:civ_border_width="10dp"/>
+
+    <TextView
+        android:maxLines="1"
+        android:layout_below="@id/username_user"
+        android:layout_toRightOf="@id/imgusers"
+        android:paddingTop="5dp"
+        android:id="@+id/last_msg"
+        android:layout_marginTop="5dp"
+        android:textColor="#988D91"
+        android:layout_marginLeft="25sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>
